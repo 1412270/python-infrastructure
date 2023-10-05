@@ -6,7 +6,7 @@ import aws_cdk as cdk
 from python_infrastructure.python_infrastructure_stack import PythonInfrastructureStack
 
 
-app = cdk.App()
+app = cdk.core.App()
 PythonInfrastructureStack(app, "PythonInfrastructureStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
